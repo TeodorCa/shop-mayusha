@@ -1,0 +1,1 @@
+Ceva scris random
