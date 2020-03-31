@@ -11,6 +11,7 @@ import * as firebase from 'firebase/app';
 import 'firebase/auth';
 import firebaseConfig from './configs/firebase';
 import Cart from './pages/Cart';
+import TermsAndConditions from './pages/TermsAndConditions';
 
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
@@ -69,6 +70,7 @@ class App extends React.Component {
           />
 
           <Route path="/about" component={ About }/>
+          <Route path="/terms-and-conditions" component={ TermsAndConditions } />
           {/* <Route path="/login" component={ Login }/> */}
           <Route path="/category/:categoryName" component={Category}/>
           <Route path="/cart" component={Cart} />

@@ -9,12 +9,12 @@ import { ReactComponent as Linkedin } from '../assets/icons/linkedin.svg';
 const Footer = () => {
 
     return(
-        <footer className="container-fluid">
+        <footer className="container-fluid bg-light py-4">
             <div className="row">
                 <div className="col-4 d-flex flex-column">
                     <h2 className="h4">Linkuri Rapide:</h2>
                     <Link to="/about">About</Link>
-                    <Link to="/about">(TODO)-Termenii si conditii</Link>
+                    <Link to="/terms-and-conditions">Termeni si conditii</Link>
                 </div>
                 <div className="col-4 d-flex flex-column">
                     <h2 className="h4">Contacteaza-ma</h2>
@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <p className="col-12 text-center">&copy;</p>
+                    <p className="col-12 text-center">&copy; Teodor Cazangiu, 2020</p>
                 </div>
             </div>        
         </footer>
