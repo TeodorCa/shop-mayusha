@@ -1,6 +1,6 @@
 {
   "name": "shop-mayusha",
-  "homepage" : "https://i-teo.com/shop-mayusha"
+  "homepage" : "https://i-teo.com/shop-mayusha",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
