@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 import Layout from '../components/Layout';
 import { connect } from 'react-redux';
 
@@ -12,26 +12,27 @@ function Cart(props) {
     const {cartProducts} = props;
 
     return(
-    <div>
         <Layout>
-                 <div className="d-flex">
-                    <h2 className="w-50">Nume produs</h2>
-                    <h2 className="w-50">Pret produs</h2>
-                </div>
-                {
-                    cartProducts.map((cartProduct) => {
-                        return(
-                        
-                            <div className="d-flex">
-                                <p className="w-50">{cartProduct.name}</p>
-                                <p className="w-50">{cartProduct.price}</p>
-                                <p className="w-50">{cartProduct.currency}</p>
-                            </div>
-                        )
-                    })
-                }
+            <div className="container-fluid container-min-max-width d-flex flex-column justify-content-start align-items-center">
+                <div className="w-100">   
+                    <div className="d-flex justify-content-start text-center h4 border-bottom align-items-center">
+                        <h3 className="w-50 border-right">Nume produs</h3>
+                        <h3 className="w-50">Pret produs</h3>
+                    </div> 
+                    <br/>
+                    {
+                        cartProducts.map((cartProduct) => {
+                            return(
+                                <div className="d-flex justify-content-start align-items-center text-center">
+                                    <p className="w-50 h6">{cartProduct.name}</p>
+                                    <p className="w-50">{cartProduct.price} {cartProduct.currency}</p>
+                                </div>
+                            )
+                        })
+                    }
+                </div> 
+            </div>
         </Layout>
-    </div>
     )
 }
 

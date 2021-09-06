@@ -21,12 +21,12 @@ function ProductItem(props) {
 
     console.log(addToCart)
     return(
-        <div className="product-item col-4">
-            <img src={image} alt="product"/>
+        <div className="product-item col-12 col-md-4 d-flex flex-column align-items-center">
+            <img src={image} alt="product" className="mt-3"/>
             <p>{name}</p>
             <p>{price}{currency}</p>
             <button 
-                className="btn btn-outline-dark"
+                className="btn btn-outline-dark mb-5"
                 onClick={() => addToCart(cartItem)}>
                     Adauga in cos</button>
         </div>

@@ -1,0 +1,14 @@
+footer svg {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 768px) {
+    footer > div {
+        flex-direction: column;
+    }
+
+    footer .footer-items {
+        margin-bottom: 1rem;
+    }
+}

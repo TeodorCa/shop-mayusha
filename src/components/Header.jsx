@@ -16,25 +16,26 @@ function Header (props) {
     return(
 
         <header className="header container-fluid mb-4 border-bottom d-flex justify-content-between align-items-center">
-            <Link to="/">
+            <Link to="/" className="my-3">
                 <img src={Logo} alt="logo"/>
             </Link>
-            <div>
+            <div className="d-flex align-items-end">
                 { user
                     ? <div>
-                        <p>Salut, {user.displayName}</p>
-                        <button className="btn btn-outline-dark" onClick={signOut}>
+                        <p className="h5">Salut, {user.displayName}</p>
+                        <button className="btn btn-outline-dark h5" onClick={signOut}>
                             Sign Out
                         </button>
                       </div>
-                    : <Link to="/login">Logare</Link>
+                    : <Link to="/login" className="h5">Sign In</Link>
                 }
                 {/* <Link to="/login">Logare</Link> */}
-                <Link to="/cart">
-                    <ShoppingCart />
-                </Link>
-                
-                <p className="ml-1">{numberOfProducts}</p>
+                <div className="d-flex align-items-center">
+                    <Link to="/cart">
+                        <ShoppingCart />
+                    </Link>
+                    <p className="ml-1">{numberOfProducts}</p>
+                </div>
             </div>
         </header>
     )

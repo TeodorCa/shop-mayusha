@@ -1,3 +1,11 @@
+.login-page {
+    height: 100vh;
+}
+
 .login-page img {
     max-width: 250px;
+}
+
+.back-to-menu {
+    margin-top: 25rem;
 }

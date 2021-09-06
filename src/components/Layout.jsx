@@ -7,7 +7,7 @@ function Layout(props) {
     const {user, signOut} = props;
     
     return(
-        <div>
+        <div className="layout">
             <Header signOut={signOut} user={user} />
             {/* TOT CE PRIMESTE INTRE TAGURILE DE HEADER DIN HOME SAU PESTE TOT PE UNDE L AM BAGAT */}
                 {props.children}
