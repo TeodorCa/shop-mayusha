@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/shop-mayusha/static/css/main.726eb8aa.chunk.css",
+    "main.js": "/shop-mayusha/static/js/main.3162bff5.chunk.js",
+    "main.js.map": "/shop-mayusha/static/js/main.3162bff5.chunk.js.map",
+    "runtime-main.js": "/shop-mayusha/static/js/runtime-main.50ffb665.js",
+    "runtime-main.js.map": "/shop-mayusha/static/js/runtime-main.50ffb665.js.map",
+    "static/css/2.67123b20.chunk.css": "/shop-mayusha/static/css/2.67123b20.chunk.css",
+    "static/js/2.6444a545.chunk.js": "/shop-mayusha/static/js/2.6444a545.chunk.js",
+    "static/js/2.6444a545.chunk.js.map": "/shop-mayusha/static/js/2.6444a545.chunk.js.map",
+    "index.html": "/shop-mayusha/index.html",
+    "precache-manifest.707b67de3087b57d02e5cc8b9584dc0d.js": "/shop-mayusha/precache-manifest.707b67de3087b57d02e5cc8b9584dc0d.js",
+    "service-worker.js": "/shop-mayusha/service-worker.js",
+    "static/css/2.67123b20.chunk.css.map": "/shop-mayusha/static/css/2.67123b20.chunk.css.map",
+    "static/css/main.726eb8aa.chunk.css.map": "/shop-mayusha/static/css/main.726eb8aa.chunk.css.map",
+    "static/js/2.6444a545.chunk.js.LICENSE.txt": "/shop-mayusha/static/js/2.6444a545.chunk.js.LICENSE.txt",
+    "static/media/github.648cc3b4.svg": "/shop-mayusha/static/media/github.648cc3b4.svg",
+    "static/media/linkedin.173ca344.svg": "/shop-mayusha/static/media/linkedin.173ca344.svg",
+    "static/media/logo.png": "/shop-mayusha/static/media/logo.aea4cb71.png",
+    "static/media/mail.c4d17416.svg": "/shop-mayusha/static/media/mail.c4d17416.svg",
+    "static/media/phone.802cd03a.svg": "/shop-mayusha/static/media/phone.802cd03a.svg",
+    "static/media/shopping-cart.4eb6a930.svg": "/shop-mayusha/static/media/shopping-cart.4eb6a930.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50ffb665.js",
+    "static/css/2.67123b20.chunk.css",
+    "static/js/2.6444a545.chunk.js",
+    "static/css/main.726eb8aa.chunk.css",
+    "static/js/main.3162bff5.chunk.js"
+  ]
+}
